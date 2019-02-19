@@ -6,12 +6,23 @@
 
 Hello, this is an end-to-end testing sample project by using protractor (Selenium wrapper) and cucumber.js to test web applications. I am using an Angular 5 SPA as the test target, but you can use it and test any web application. It is not an Angular depended project.
 
-## Requirements
+## Dependencies
 
 This project needs Node.js and Java to run.
 
 - [Node.js](https://nodejs.org/en/) (8.11)
 - [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (8u191)
+
+It is built with following versions of dependencies.
+
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "protractor": "^5.1.2",
+    "typescript": "^3.2.4"
+    "protractor-cucumber-framework": "^6.1.1",
+    "ts-node": "^3.0.2",
+    "@types/node": "~6.0.60"
 
 ### File Structures 
 
