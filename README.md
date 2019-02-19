@@ -15,6 +15,8 @@ This project needs Node.js and Java to run.
 
 ### File Structures 
 
+`.circleci` Configuration to run E2E as part of CI/CD pipe. Using CircleCi as an example.
+
 `data` Where we load test data, it can (should) be replaced by a API service to get data from DB. For now we use a `test-actors.json` to mock the response.
 
 `features` Cucumber test features are located here.
@@ -23,11 +25,13 @@ This project needs Node.js and Java to run.
 
 `step_definitions` The test specs which are invoked by features.
 
-`conf.ts` configuration for protractor and cucumber
+`conf.ts` Configuration for protractor and cucumber
 
-`package.json` project dependencies
+`package.json` Project dependencies
 
 ```
++-- .circleci
+|   +-- config.yml
 +-- data
 |   +-- test-actors.json
 |   +-- user.data.ts
