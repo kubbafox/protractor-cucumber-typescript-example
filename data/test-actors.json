@@ -1,0 +1,36 @@
+{
+  "mockCustomerA": {
+    "actorData": {
+      "register": {
+        "firstName": "Tom",
+        "lastName": "J",
+        "userName": "TomJ",
+        "password": "password"
+      },
+      "login": {
+        "userName": "123123",
+        "password": "password"
+      },
+      "dashboard" : {
+      }
+    },
+    "env": "dev"
+  },
+  "mockCustomerB": {
+    "actorData": {
+      "register": {
+        "firstName": "A",
+        "lastName": "B",
+        "userName": "2",
+        "password": "2"
+      },
+      "login": {
+        "userName": "2",
+        "password": "2"
+      },
+      "dashboard" : {
+      }
+    },
+    "env": "dev"
+  }
+}
