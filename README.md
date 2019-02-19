@@ -13,7 +13,7 @@ This project needs Node.js and Java to run.
 - [Node.js](https://nodejs.org/en/) (8.11)
 - [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (8u191)
 
-It is built with following versions of dependencies.
+It is built with following npm dependencies.
 
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
@@ -58,7 +58,7 @@ It is built with following versions of dependencies.
 ```
 
 
-#### Setup Project in 2 minutes 
+### Setup Project in 2 minutes 
 Run the following commands to setup project.
 ```
 $ cd /path/to/new-repository
@@ -69,6 +69,3 @@ $ npm run pretest
 $ npm run startTest 
 ```
 
-## Contact Us
-
-Free feel to contact [Servicing Platform team](mailto:servicing-platform@bestegg.com) if you have any questions :D
